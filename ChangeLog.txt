@@ -5,5 +5,11 @@ Added FTDI USB -> Serial chip to access the Serial debug console on the Beagle B
 Added automatic CAN termination using standard AmpSeal pinout.
 
 v2.1:
-Moved USB connector to fix clearance issue with Beagle Bone BlACK.
+Moved USB connector to fix clearance issue with Beaglebone Black.
 Updated BOM to include the female header for the serial console. and changed the pin headers to short pins.
+
+V2.2:
+Include updated CAN circuit for RW-3
+Change CAN connector
+Update power supply to SMPs
+Add CAN termination circuit
