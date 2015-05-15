@@ -13,3 +13,11 @@ Include updated CAN circuit for RW-3
 Change CAN connector
 Update power supply to SMPs
 Add CAN termination circuit
+
+v2.3:
+***
+
+v2.3.1:
+Resolve issue with MOSFET footprints that caused LEDs to be uncontrollable
+Change LED control pins to avoid issue that caused LEDs to be uncontrollable
+Route CAN traces that were unrouted in v2.3
