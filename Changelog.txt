@@ -1,0 +1,23 @@
+V2.0:
+
+Changed Connectors to AmpSeal 8
+Added FTDI USB -> Serial chip to access the Serial debug console on the Beagle Bone Black
+Added automatic CAN termination using standard AmpSeal pinout.
+
+v2.1:
+Moved USB connector to fix clearance issue with Beaglebone Black.
+Updated BOM to include the female header for the serial console. and changed the pin headers to short pins.
+
+V2.2:
+Include updated CAN circuit for RW-3
+Change CAN connector
+Update power supply to SMPs
+Add CAN termination circuit
+
+v2.3:
+***
+
+v2.3.1:
+Resolve issue with MOSFET footprints that caused LEDs to be uncontrollable
+Change LED control pins to avoid issue that caused LEDs to be uncontrollable
+Route CAN traces that were unrouted in v2.3
